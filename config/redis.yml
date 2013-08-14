@@ -1,0 +1,50 @@
+development:
+  host_search: '192.168.5.167'
+  port_search: 6379
+  select_search: '1'
+  
+  host_users: '192.168.5.167'
+  port_users: 6379
+  select_users: '3'
+  
+  host_topics: '192.168.5.167'
+  port_topics: 6379
+  select_topics: '4'
+  
+  host_asks: '192.168.5.167'
+  port_asks: 6379
+  select_asks: '5'
+  
+test:
+  host_search: '192.168.6.39'
+  port_search: 6379
+  select_search: '1'
+  
+  host_users: '192.168.6.39'
+  port_users: 6379
+  select_users: '3'
+  
+  host_topics: '192.168.6.39'
+  port_topics: 6379
+  select_topics: '4'
+  
+  host_asks: '192.168.6.39'
+  port_asks: 6379
+  select_asks: '5'
+  
+production:
+  host_search: '192.168.6.39'
+  port_search: 6379
+  select_search: '1'
+  
+  host_users: '192.168.6.39'
+  port_users: 6379
+  select_users: '3'
+  
+  host_topics: '192.168.6.39'
+  port_topics: 6379
+  select_topics: '4'
+  
+  host_asks: '192.168.6.39'
+  port_asks: 6379
+  select_asks: '5'

@@ -1,0 +1,28 @@
+development:
+  sessions:
+    default:
+      hosts:
+        - 192.168.5.164:27017
+      database: quora_development
+      
+test:
+  sessions:
+    default:
+      hosts:
+        - 192.168.6.21:27017
+      database: quora_development
+
+production:
+  sessions:
+    default:
+      hosts:
+        - 192.168.5.164:27017
+        - 192.168.6.21:27017
+      database: quora_development
+
+  options:
+    allow_dynamic_fields: false
+    identity_map_enabled: true
+    scope_overwrite_exception: true
+    raise_not_found_error: false
+    use_activesupport_time_zone: false
