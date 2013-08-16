@@ -1,13 +1,11 @@
 source 'http://ruby.taobao.org/'
 
 #web框架
+gem "goliath", "~> 1.0.3"
 gem "grape", "~> 0.5.0"
 
 #数据库driver
 gem "mongoid", "~> 3.1.4"
-
-#thin服务器
-gem "thin", "~> 1.5.1"
 
 #redis搜索
 gem "redis-search", "~> 0.9.0"
